@@ -1,16 +1,16 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: podinfo
+  name: nodeinfo
   namespace: demo
   labels:
-    app: podinfo
+    app: nodeinfo
 spec:
   type: ClusterIP
   selector:
-    app: podinfo
+    app: nodeinfo
   ports:
   - name: http
-    port: 9898
+    port: 80
     protocol: TCP
     targetPort: http
