@@ -9,6 +9,9 @@ metadata:
   annotations:
     flux.weave.works/automated: "true"
     flux.weave.works/tag.nodeinfo: semver:~1.17
+    fluxcd.io/locked: 'true'
+    fluxcd.io/locked_msg: new nginx does not work for us
+    fluxcd.io/locked_user: ajafo <artur.zarzycki@nordcloud.com>
 spec:
   strategy:
     rollingUpdate:
