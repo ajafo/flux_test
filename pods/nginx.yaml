@@ -8,7 +8,7 @@ metadata:
     app: nginx
   annotations:
     flux.weave.works/automated: "true"
-    flux.weave.works/tag.nodeinfo: semver:~1.7.*
+    flux.weave.works/tag.nodeinfo: semver:~1.17.*
 spec:
   strategy:
     rollingUpdate:
